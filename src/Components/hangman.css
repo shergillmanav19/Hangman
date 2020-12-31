@@ -1,0 +1,17 @@
+img {
+  width: 14rem;
+  height: 20rem;
+  box-shadow: 20px 20px 20px 10px green;
+  border-radius: 25px;
+  position: relative;
+}
+.container {
+  flex-direction: column;
+  display: flex;
+}
+.rotateme {
+  color: yellowgreen;
+  transform-origin: 0 0;
+  transform: rotate(-55deg);
+  margin-top: 15px;
+}
