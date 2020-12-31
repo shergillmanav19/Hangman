@@ -86,10 +86,10 @@ class Hangman extends React.Component {
         </button>
       );
     }
-    if (this.state.tries == 4) {
+    if (this.state.tries === 4) {
       danger = <p style={{ color: "red" }}>Only 2 more guesses!</p>;
     }
-    if (this.state.tries == 5) {
+    if (this.state.tries === 5) {
       danger = <p style={{ color: "red" }}>Only 1 more guess left!</p>;
     }
     if (guessed) {
